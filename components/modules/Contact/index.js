@@ -50,7 +50,7 @@ const Contact = ({ref}) => (
     </Grid>
     <Grid xs={12} md={6}><Image
         src="/contact.svg"
-        alt="I’m John and I’m a Backend & Devops engineer!"
+        alt="I’m Ali and I’m a Software engineer!"
         width={498}
         height={313}
         layout="responsive"

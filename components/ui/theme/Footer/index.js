@@ -1,6 +1,5 @@
 import { Container } from '@mui/material';
 import Image from 'next/image';
-import social from './social.json';
 
 
 const styles = {
