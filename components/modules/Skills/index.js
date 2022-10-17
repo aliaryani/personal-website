@@ -21,7 +21,7 @@ const Skills = ({myRef,handleClick}) => (
     <Grid xs={12} md={6}>
         <Image
           src="/skills.svg"
-          alt="I’m John and I’m a Backend & Devops engineer!"
+          alt="I’m Ali and I’m a Software engineer!"
           width={447}
           height={326}
           layout="responsive"
