@@ -37,6 +37,15 @@ pixel-perfect user interfaces from scratch. Experienced in a plethora of diverse
 and has a view of the market for business tech purposes.
         </p>
         <Button size="large" variant="contained" onClick={()=>handleClick("contact")} style={{margin:"0 10px"}}>Hire me</Button>
+        <Button size="large" variant="contained" style={{margin:"0 10px"}}>
+
+        <a
+            href={"/Ali-Aryani.pdf"}
+            download
+          >
+           My Resume
+          </a>
+          </Button>
       </Grid>
     </Grid>
     </Container>
