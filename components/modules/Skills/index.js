@@ -30,7 +30,7 @@ const Skills = ({myRef,handleClick}) => (
       </Grid>
       <Grid xs={12} md={6} sx={{ mt:{xs:22,md:0}}}>
         <h1 style={{padding:"0 10px"}}>More about me</h1>
-        <p style={{color:"rgb(112, 112, 112)",fontSize:"16pt",padding:"0 10px"}}>
+        <p style={{color:"rgb(112, 112, 112)",fontSize:"16pt",padding:"10px 10px"}}>
         7+ years experience as a Front-end Web Developer on large-scale projects. Enthusiast
 in working with new technologies and tools. Develop Responsive websites precise and
 pixel-perfect user interfaces from scratch. Experienced in a plethora of diverse projects

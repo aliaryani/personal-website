@@ -24,7 +24,7 @@ const Intro = ({executeScroll,handleClick}) => (
         <h2 style={{fontSize:"32pt",color:"rgb(112, 112, 112)",fontWeight:"normal"}}>
           I’m Ali and I’m a Software engineer!
         </h2>
-        <Button size="large" variant="contained" onClick={()=>handleClick("contact")}>Hire me</Button>
+        <Button size="large" variant="contained" onClick={()=>handleClick("contact")} sx={{mb:4}}>Hire me</Button>
       </Grid>
       <Grid xs={12} md={6}>
         <Image
