@@ -29,7 +29,7 @@ const Intro = ({executeScroll,handleClick}) => (
       <Grid xs={12} md={6}>
         <Image
           src="/dev.svg"
-          alt="I’m John and I’m a JAMStack engineer!"
+          alt="I’m Ali and I’m a Software engineer!"
           width={463}
           height={273}
           layout="responsive"

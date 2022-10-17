@@ -15,6 +15,14 @@ a {
   box-sizing: border-box;
 }
 
+.NavbarLinks{
+  font-weight:bold;color:#121212;cursor:pointer
+}
+.contactIcons{
+  color:#1976d2;font-size:2rem
+}
+.contactLinks{
+  color:rgb(112, 112, 112);font-size:1.2rem}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

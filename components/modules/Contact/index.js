@@ -17,7 +17,7 @@ const Contact = ({ref}) => (
   spacing={2}
   ml={1}
 >
-<MailIcon style={{color:"#1976d2",fontSize:36}}/> <p style={{color:"rgb(112, 112, 112)",fontSize:'1.2rem'}}>aliaryani69@gmail.com</p>
+<MailIcon className='contactIcons'/> <p className='contactLinks'>aliaryani69@gmail.com</p>
 
 </Stack>
 <Stack
@@ -27,7 +27,7 @@ const Contact = ({ref}) => (
   justifyContent="left"
   alignItems="center"
   spacing={2}
-><MobileFriendlyIcon style={{color:"#1976d2",fontSize:36}}/> <p style={{color:"rgb(112, 112, 112)",fontSize:'1.2rem'}}>+98 936-986-5577</p>
+><MobileFriendlyIcon className='contactIcons'/> <p className='contactLinks'>+98 936-986-5577</p>
 </Stack>
 <Stack
   style={{marginTop:16}}
@@ -36,7 +36,7 @@ const Contact = ({ref}) => (
   justifyContent="left"
   alignItems="center"
   spacing={2}
-><LinkedInIcon style={{color:"#1976d2",fontSize:36}}/> <p style={{color:"rgb(112, 112, 112)",fontSize:'1.2rem'}}>linkedin.com/in/ali-aryani</p>
+><LinkedInIcon className='contactIcons'/> <p className='contactLinks'>linkedin.com/in/ali-aryani</p>
 </Stack>
 <Stack
   style={{marginTop:16}}
@@ -45,7 +45,7 @@ const Contact = ({ref}) => (
   justifyContent="left"
   alignItems="center"
   spacing={2}
-><GitHubIcon style={{color:"#1976d2",fontSize:36}}/> <p style={{color:"rgb(112, 112, 112)",fontSize:'1.2rem'}}>github.com/aliaryani</p>
+><GitHubIcon className='contactIcons'/> <p className='contactLinks'>github.com/aliaryani</p>
 </Stack>
     </Grid>
     <Grid xs={12} md={6}><Image

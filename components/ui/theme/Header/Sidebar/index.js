@@ -4,12 +4,8 @@ import { Global } from '@emotion/react';
 import { styled } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import { grey } from '@mui/material/colors';
-import Button from '@mui/material/Button';
-import Box from '@mui/material/Box';
-import Skeleton from '@mui/material/Skeleton';
-import Typography from '@mui/material/Typography';
 import SwipeableDrawer from '@mui/material/SwipeableDrawer';
-import { Link, Stack } from '@mui/material';
+import {  Stack } from '@mui/material';
 
 const drawerBleeding = 56;
 
@@ -19,24 +15,9 @@ const Root = styled('div')(({ theme }) => ({
     theme.palette.mode === 'light' ? grey[100] : theme.palette.background.default,
 }));
 
-const StyledBox = styled(Box)(({ theme }) => ({
-  backgroundColor: theme.palette.mode === 'light' ? '#fff' : grey[800],
-}));
-
-const Puller = styled(Box)(({ theme }) => ({
-  width: 30,
-  height: 6,
-  backgroundColor: theme.palette.mode === 'light' ? grey[300] : grey[900],
-  borderRadius: 3,
-  position: 'absolute',
-  top: 8,
-  left: 'calc(50% - 15px)',
-}));
-
 function Sidebar(props) {
   const { window } = props;
 
-  // This is used only for the example
   const container = window !== undefined ? () => window().document.body : undefined;
 
 
@@ -75,9 +56,9 @@ function Sidebar(props) {
   style={{marginTop:32}}
   >
 
-<a style={{fontWeight:'bold',color:"#121212",cursor:'pointer'}} onClick={()=>HandleClickMenu("skills")}>About</a>
-        <a style={{fontWeight:'bold',color:"#121212",cursor:'pointer'}}  onClick={()=>HandleClickMenu("projects")}>Projects</a>
-        <a style={{fontWeight:'bold',color:"#121212",cursor:'pointer'}}  onClick={()=>HandleClickMenu("contact")}>Contact</a>
+<a className='NavbarLinks' onClick={()=>HandleClickMenu("skills")}>About</a>
+        <a className='NavbarLinks'  onClick={()=>HandleClickMenu("projects")}>Projects</a>
+        <a className='NavbarLinks'  onClick={()=>HandleClickMenu("contact")}>Contact</a>
       </Stack>
       </SwipeableDrawer>
     </Root>
