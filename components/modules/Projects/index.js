@@ -3,7 +3,7 @@ import { Container } from "@mui/system";
 import Items from "./Items";
 
 
-const data=[{id:0,title:"Monitoring",image:"/ping.PNG",path:"https://www.ping24.net/portal/"},
+const data=[{id:6,title:"Enclosures arch",image:"/enclosuresarch.PNG",path:"https://enclosuresarch.vercel.app/"},{id:0,title:"Monitoring",image:"/ping.PNG",path:"https://www.ping24.net/portal/"},
 {id:1,title:"Dental Clinic",image:"/dental.PNG",path:"http://smoderndental.com/"},
 {id:2,title:"Design/construction Company",image:"/solid.PNG",path:"http://www.solidmgt.com/"}
 ,{id:3,title:"Personal website",image:"/kymhia.PNG",path:"https://kimiamoradian.ir/"}

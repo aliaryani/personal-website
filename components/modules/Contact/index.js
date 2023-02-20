@@ -20,7 +20,7 @@ const Contact = ({ref}) => (
 <MailIcon className='contactIcons'/> <p className='contactLinks'>aliaryani69@gmail.com</p>
 
 </Stack>
-<Stack
+{/* <Stack
   style={{marginTop:16}}
   ml={1}
   direction="row"
@@ -28,7 +28,7 @@ const Contact = ({ref}) => (
   alignItems="center"
   spacing={2}
 ><MobileFriendlyIcon className='contactIcons'/> <p className='contactLinks'>+98 936-986-5577</p>
-</Stack>
+</Stack> */}
 <Stack
   style={{marginTop:16}}
   ml={1}
