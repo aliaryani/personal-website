@@ -43,6 +43,7 @@ const Father = () => {
             height: 120,
             position: "absolute",
             zIndex: 99999,
+            color: "#fff",
           }}
           onClick={handlePlay}
         />
