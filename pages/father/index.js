@@ -1,8 +1,5 @@
-import { Button } from "@mui/material";
 import { useEffect, useRef } from "react";
-import { useInView } from "react-intersection-observer";
 import PlayCircleOutlineIcon from "@mui/icons-material/PlayCircleOutline";
-import PauseCircleIcon from "@mui/icons-material/PauseCircle";
 import { useState } from "react";
 const Father = () => {
   const videoref = useRef();
