@@ -2,26 +2,26 @@ import { useEffect, useRef } from "react";
 import PlayCircleOutlineIcon from "@mui/icons-material/PlayCircleOutline";
 import { useState } from "react";
 const Father = () => {
-  const videoref = useRef();
+  //   const videoref = useRef();
 
-  const [isPlay, setIsPlay] = useState(false);
+  //   const [isPlay, setIsPlay] = useState(false);
 
-  useEffect(() => {
-    setInterval(() => {
-      checkPlay();
-    }, 100);
-  });
+  //   useEffect(() => {
+  //     setInterval(() => {
+  //       checkPlay();
+  //     }, 100);
+  //   });
 
-  const handlePlay = () => {
-    videoref.current.play();
-    setIsPlay(true);
-  };
+  //   const handlePlay = () => {
+  //     videoref.current.play();
+  //     setIsPlay(true);
+  //   };
 
-  const checkPlay = () => {
-    if (videoref?.current.paused) {
-      setIsPlay(false);
-    }
-  };
+  //   const checkPlay = () => {
+  //     if (videoref?.current.paused) {
+  //       setIsPlay(false);
+  //     }
+  //   };
 
   return (
     <div
@@ -36,7 +36,7 @@ const Father = () => {
         zIndex: 99999,
       }}
     >
-      {!isPlay && (
+      {/* {!isPlay && (
         <PlayCircleOutlineIcon
           style={{
             width: 120,
@@ -47,11 +47,11 @@ const Father = () => {
           }}
           onClick={handlePlay}
         />
-      )}
+      )} */}
 
       {/* </button> */}
       <video
-        ref={videoref}
+        // ref={videoref}
         controls
         width={"100%"}
         // height={"200px"}
